@@ -32,3 +32,17 @@ DNS = 10.99.0.20
 PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
 AllowedIPs = 0.0.0.0/0,::/0
 Endpoint = nl.204vpn.net:51820
+
+
+=== SERVER: PL HAMRAH (Fast) ===
+[Interface]
+PrivateKey = EImysnpTh093dJRC0BjA3GYfL2jABsc774YNJOuwUVk=
+Address = 10.0.0.2/32
+DNS = 1.1.1.1, 1.0.0.1
+MTU = 1280
+
+# Peer
+[Peer]
+PublicKey = OLtIzBK9SxkqbT5vO1SW/gsu6H8znaQ3BetNPT3A/QE=
+AllowedIPs = 0.0.0.0/0
+Endpoint = poland.vpnserverhub.com:27054
