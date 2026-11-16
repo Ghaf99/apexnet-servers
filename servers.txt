@@ -20,3 +20,15 @@ DNS = 10.99.0.20
 PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
 AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = lv.204vpn.net:51820
+
+
+=== SERVER: NL (Fast) ===
+[Interface]
+Address = 10.128.220.67,fd64:e20:68a3::dc43
+PrivateKey = Y92lTkSQ2/qOuKr9gvQaqi5ILSHjQiAY8/vj1n656CQ=
+DNS = 10.99.0.20
+
+[Peer]
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = nl.204vpn.net:51820
