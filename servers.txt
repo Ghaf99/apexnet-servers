@@ -1,32 +1,20 @@
-=== random server ===
+=== SERVER: CA server ===
 [Interface]
-PrivateKey = Y92lTkSQ2/qOuKr9gvQaqi5ILSHjQiAY8/vj1n656CQ=
-Address = 10.128.220.67/32, fd64:e20:68a3::dc43/128
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
 DNS = 10.99.0.20
 
 [Peer]
 PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = random.204vpn.net:51820
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = ca.204vpn.net:51820
 
 
 
-=== Latvia (MOKHABERAT) ===
+=== SERVER: CH server ===
 [Interface]
-PrivateKey = Y92lTkSQ2/qOuKr9gvQaqi5ILSHjQiAY8/vj1n656CQ=
-Address = 10.128.220.67/32, fd64:e20:68a3::dc43/128
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = lv.204vpn.net:51820
-
-
-=== SERVER: Switzerland 🇨🇭 (Fast) ===
-[Interface]
-Address = 10.128.220.67,fd64:e20:68a3::dc43
-PrivateKey = Y92lTkSQ2/qOuKr9gvQaqi5ILSHjQiAY8/vj1n656CQ=
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
 DNS = 10.99.0.20
 
 [Peer]
@@ -35,10 +23,35 @@ AllowedIPs = 0.0.0.0/0,::/0
 Endpoint = ch.204vpn.net:51820
 
 
-=== SERVER: NL (Fast) ===
+=== SERVER: Fr server ===
 [Interface]
-Address = 10.128.220.67,fd64:e20:68a3::dc43
-PrivateKey = Y92lTkSQ2/qOuKr9gvQaqi5ILSHjQiAY8/vj1n656CQ=
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+DNS = 10.99.0.20
+
+[Peer]
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = fr.204vpn.net:51820
+
+
+
+=== SERVER: LV server ===
+[Interface]
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+DNS = 10.99.0.20
+
+[Peer]
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = lv.204vpn.net:51820
+
+
+=== SERVER: NL server) ===
+[Interface]
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
 DNS = 10.99.0.20
 
 [Peer]
@@ -47,28 +60,37 @@ AllowedIPs = 0.0.0.0/0,::/0
 Endpoint = nl.204vpn.net:51820
 
 
-=== SERVER: PL HAMRAH (Fast) ===
+=== SERVER: pl server ===
 [Interface]
-PrivateKey = EImysnpTh093dJRC0BjA3GYfL2jABsc774YNJOuwUVk=
-Address = 10.0.0.2/32
-DNS = 1.1.1.1, 1.0.0.1
-MTU = 1280
-
-# Peer
-[Peer]
-PublicKey = OLtIzBK9SxkqbT5vO1SW/gsu6H8znaQ3BetNPT3A/QE=
-AllowedIPs = 0.0.0.0/0
-Endpoint = poland.vpnserverhub.com:27054
-
-=== SERVER: Fr (*test*) ===
-[Interface]
-PrivateKey = sHh1lzsJFqtARThz+44PaACrKjxD6pfe3yuMLgG2+Wo=
-Address = 10.104.3.250/32
-DNS = 1.1.1.1, 8.8.8.8
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+DNS = 10.99.0.20
 
 [Peer]
-PublicKey = iM12hkxD6YzouHTa6MFFYuFtocV+1WPXjBNkbXEPMjU=
-AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = 5.196.64.200:443
-PersistentKeepalive = 25
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = pl.204vpn.net:51820
+
+=== SERVER: US server (NOT FOR GAME) ===
+[Interface]
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+DNS = 10.99.0.20
+
+[Peer]
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = us.204vpn.net:51820
+
+
+=== SERVER: random server ===
+[Interface]
+Address = 10.133.105.135,fd64:e20:68a3::5:6987
+PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+DNS = 10.99.0.20
+
+[Peer]
+PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
+AllowedIPs = 0.0.0.0/0,::/0
+Endpoint = random.204vpn.net:51820
 
