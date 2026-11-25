@@ -1,96 +1,10 @@
-=== SERVER: CA server ===
+=== SERVER: C server ===
 [Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
 PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
+Address = 10.133.105.135/32, fd64:e20:68a3::5:6987/128
 DNS = 10.99.0.20
 
 [Peer]
 PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = ca.204vpn.net:51820
-
-
-
-=== SERVER: CH server ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = ch.204vpn.net:51820
-
-
-=== SERVER: Fr server ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = fr.204vpn.net:51820
-
-
-
-=== SERVER: LV server ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = lv.204vpn.net:51820
-
-
-=== SERVER: NL server) ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
+AllowedIPs = 0.0.0.0/0, ::/0
 Endpoint = nl.204vpn.net:51820
-
-
-=== SERVER: pl server ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = pl.204vpn.net:51820
-
-=== SERVER: US server (NOT FOR GAME) ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = us.204vpn.net:51820
-
-
-=== SERVER: random server ===
-[Interface]
-Address = 10.133.105.135,fd64:e20:68a3::5:6987
-PrivateKey = vozI182Xz44tt9LZKDvmRBF8+dWPbsLqDaoghYVF3qo=
-DNS = 10.99.0.20
-
-[Peer]
-PublicKey = QFbr19X11tqUZRerZgItb25FnBsNsd7NyJvAkWTRU1U=
-AllowedIPs = 0.0.0.0/0,::/0
-Endpoint = random.204vpn.net:51820
-
